@@ -9,6 +9,16 @@ Ejecutar Chattboter.py
 
 Elaborar un informe de lo que funciona y no funciona y dejarlo en el Readme del repo.
 
+
+Indice:
+chatbot_grupo1.ipynb > notebook con los pasos para entrenar un chatbot usando tensorflow
+chatterbot_grupo1_v1.ipynb > notebook con los pasos para instalar y ejecutar un chatbot usando la libreria de chatterbot
+ejercicio_chatbot.py > archivo python para ejecutar el chatbot
+
+
+
+
+
 ----------------------INSTALACION LIBRERIAS-----------------------------
 
 El primer paso que se realizo fue ejecutar el archivo chatterbot.py donde fallo en colab ya que estamos usando la libreria chatterbot sin que la misma fuera instalada ni figure entre los requirements para ejecutar el notebook
@@ -40,4 +50,8 @@ En nuestro entorno esta recomendación se reprodujo asi:
 !pip install pytz
 !pip install chatterbot==1.0.4
 ----------------------------------------------
+
+
+
+
 
