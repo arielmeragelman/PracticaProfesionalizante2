@@ -3,17 +3,24 @@ Este es el archivo Readme del ejercicio con CHATBOT
 TAREA:
 Implementar el chatbot en Google Colab.
 
+
 Ejecutar el jupyter. Resolver y adaptar todo lo que se considere necesario.
 
+
 Ejecutar Chattboter.py
+
 
 Elaborar un informe de lo que funciona y no funciona y dejarlo en el Readme del repo.
 
 
+
 Indice:
 chatbot_grupo1.ipynb > notebook con los pasos para entrenar un chatbot usando tensorflow
+
 chatterbot_grupo1_v1.ipynb > notebook con los pasos para instalar y ejecutar un chatbot usando la libreria de chatterbot
+
 ejercicio_chatbot.py > archivo python para ejecutar el chatbot
+
 
 
 
@@ -34,10 +41,14 @@ Que explica como instalar chatterbot mediante la instalación manual de determin
 Siguiendo dichos pasos que pasamos a enumerar el entorno se ejecuto correctamente
 
 "
+
 mathparse>=0.1,<0.2
 python-dateutil>=2.8,<2.9
+
 sqlalchemy>=1.3,<1.4
+
 pytz
+
 
 Luego ejecute el comando: pip install chatterbot==1.0.4
 "
