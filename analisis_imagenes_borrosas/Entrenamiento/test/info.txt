@@ -1,0 +1,2 @@
+
+Esta carpeta contedra imagenes fuera de foco para evaluar el entrenamiento

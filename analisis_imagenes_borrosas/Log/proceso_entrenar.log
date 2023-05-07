@@ -1,0 +1,989 @@
+2023-04-26 20:44:55,439 - resultado - DEBUG - Se creo lista de archivos, train: 4
+2023-04-26 20:44:55,442 - resultado - DEBUG - Se creo lista de archivos, test: 0
+2023-04-26 20:44:55,473 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 20:44:55,473 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 20:44:58,452 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 20:44:58,452 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 20:44:58,526 - resultado - INFO - None
+2023-04-26 20:44:58,526 - resultado - INFO - None
+2023-04-26 20:44:58,537 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 20:44:58,537 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 20:44:58,537 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:37:10,988 - resultado - DEBUG - Se creo lista de archivos, train: 4
+2023-04-26 23:37:11,220 - resultado - DEBUG - Se creo lista de archivos, test: 0
+2023-04-26 23:37:11,730 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:37:11,730 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:37:14,905 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:37:14,905 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:37:14,976 - resultado - INFO - None
+2023-04-26 23:37:14,976 - resultado - INFO - None
+2023-04-26 23:37:14,987 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:37:14,987 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:37:14,987 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:42:09,773 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:09,773 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:09,773 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:09,773 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:09,777 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:09,777 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:09,777 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:09,777 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:53,716 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:53,716 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:53,716 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:53,716 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:53,716 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:42:53,721 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:53,721 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:53,721 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:53,721 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:42:53,721 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,584 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:50:32,586 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,000 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:53:28,002 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,768 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:54:40,772 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,311 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:07,315 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:20,743 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,903 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,963 - resultado - INFO - None
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-26 23:56:22,993 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,499 - resultado - INFO - Accuracy: [0.9885495901107788, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,502 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,505 - resultado - INFO - Loss: [0.03198657184839249, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 00:20:22,508 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:15:15,623 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 12:15:15,853 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 12:18:20,723 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 12:18:20,723 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 12:18:23,269 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 12:18:23,269 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 12:18:23,320 - resultado - INFO - None
+2023-04-27 12:18:23,320 - resultado - INFO - None
+2023-04-27 12:18:23,348 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 12:18:23,348 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 12:18:23,348 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 12:44:07,298 - resultado - INFO - Accuracy: [0.9890909194946289, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,298 - resultado - INFO - Accuracy: [0.9890909194946289, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,298 - resultado - INFO - Accuracy: [0.9890909194946289, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,301 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,301 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,301 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 12:44:07,302 - resultado - INFO - Loss: [0.01723809726536274, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:44:07,302 - resultado - INFO - Loss: [0.01723809726536274, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:44:07,302 - resultado - INFO - Loss: [0.01723809726536274, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:44:07,304 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:44:07,304 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 12:44:07,304 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 14:46:26,246 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 14:46:26,962 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 14:58:08,273 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 14:58:08,273 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 14:58:08,276 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 14:58:08,276 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:16:08,814 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:16:09,069 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:27:19,894 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:27:20,256 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:32:11,193 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:32:11,193 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:32:13,943 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:32:13,943 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:32:14,001 - resultado - INFO - None
+2023-04-27 16:32:14,001 - resultado - INFO - None
+2023-04-27 16:35:24,404 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:35:24,404 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:35:24,404 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:35:24,412 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:35:24,412 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:35:24,412 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:36:18,713 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:36:18,713 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:36:18,713 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:36:18,713 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:36:20,935 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:36:20,935 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:36:20,935 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:36:20,935 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:36:20,988 - resultado - INFO - None
+2023-04-27 16:36:20,988 - resultado - INFO - None
+2023-04-27 16:36:20,988 - resultado - INFO - None
+2023-04-27 16:36:20,988 - resultado - INFO - None
+2023-04-27 16:48:08,530 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:48:08,530 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:48:08,530 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:48:08,530 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:48:08,530 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 16:48:08,533 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:48:08,533 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:48:08,533 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:48:08,533 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:48:08,533 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:34,244 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,563 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,633 - resultado - INFO - None
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 16:48:36,667 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,831 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,836 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,839 - resultado - INFO - Loss: [0.12719109654426575, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:17:40,842 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 17:45:56,486 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 17:45:56,705 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 17:49:31,690 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 17:49:31,690 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 17:49:34,279 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 17:49:34,279 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 17:49:34,337 - resultado - INFO - None
+2023-04-27 17:49:34,337 - resultado - INFO - None
+2023-04-27 17:49:34,359 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 17:49:34,359 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 17:49:34,359 - resultado - INFO - Entenamiento con epochs: 5
+2023-04-27 18:16:37,541 - resultado - INFO - Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,541 - resultado - INFO - Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,541 - resultado - INFO - Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,544 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,544 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,544 - resultado - INFO - Val Accuracy: [1.0, 1.0, 1.0, 1.0, 1.0]
+2023-04-27 18:16:37,548 - resultado - INFO - Loss: [0.014849578030407429, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:16:37,548 - resultado - INFO - Loss: [0.014849578030407429, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:16:37,548 - resultado - INFO - Loss: [0.014849578030407429, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:16:37,551 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:16:37,551 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:16:37,551 - resultado - INFO - Val Loss: [0.0, 0.0, 0.0, 0.0, 0.0]
+2023-04-27 18:35:55,686 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 18:35:56,074 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 18:40:31,323 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 18:40:31,323 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 18:40:36,066 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 18:40:36,066 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 18:40:36,125 - resultado - INFO - None
+2023-04-27 18:40:36,125 - resultado - INFO - None
+2023-04-27 18:40:36,165 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 18:40:36,165 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 18:40:36,165 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 18:52:49,188 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 18:52:49,188 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 18:52:49,188 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 18:52:49,190 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 18:52:49,190 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 18:52:49,190 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 18:52:49,192 - resultado - INFO - Loss: [0.08270607888698578, 0.0]
+2023-04-27 18:52:49,192 - resultado - INFO - Loss: [0.08270607888698578, 0.0]
+2023-04-27 18:52:49,192 - resultado - INFO - Loss: [0.08270607888698578, 0.0]
+2023-04-27 18:52:49,194 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 18:52:49,194 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 18:52:49,194 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:00:07,197 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 19:00:07,197 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 19:00:07,197 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 19:00:07,197 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 19:00:07,197 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 19:00:07,200 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 19:00:07,200 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 19:00:07,200 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 19:00:07,200 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 19:00:07,200 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:44,091 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,368 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,437 - resultado - INFO - None
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:00:46,474 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,623 - resultado - INFO - Accuracy: [0.949999988079071, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,627 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,629 - resultado - INFO - Loss: [0.06737302243709564, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 19:12:42,632 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 22:45:04,212 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-27 22:45:04,388 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-27 22:48:20,489 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 22:48:20,489 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-27 22:48:24,068 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 22:48:24,068 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-27 22:48:24,122 - resultado - INFO - None
+2023-04-27 22:48:24,122 - resultado - INFO - None
+2023-04-27 22:48:24,152 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 22:48:24,152 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 22:48:24,152 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-27 23:00:48,053 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 23:00:48,053 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 23:00:48,053 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-04-27 23:00:48,056 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 23:00:48,056 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 23:00:48,056 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-27 23:00:48,058 - resultado - INFO - Loss: [0.19303345680236816, 0.0]
+2023-04-27 23:00:48,058 - resultado - INFO - Loss: [0.19303345680236816, 0.0]
+2023-04-27 23:00:48,058 - resultado - INFO - Loss: [0.19303345680236816, 0.0]
+2023-04-27 23:00:48,060 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 23:00:48,060 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-27 23:00:48,060 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-28 18:33:07,689 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:38:21,225 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:39:08,898 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:39:42,232 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:40:13,810 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:41:12,100 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:41:37,350 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:42:18,615 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:42:57,982 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:44:23,180 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:44:43,305 - resultado - ERROR - TEST DE TESTING resultado
+2023-04-28 18:48:42,788 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 18:48:42,788 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:03:02,213 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:03:02,213 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:03:27,428 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:03:27,428 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:21:29,395 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:21:29,395 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:23:24,215 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:23:24,215 - resultado - ERROR - TEST DE TESTING proceso
+2023-04-28 19:40:36,966 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-04-28 19:40:37,511 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-04-28 19:50:20,541 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-28 19:50:20,541 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-04-28 19:50:24,598 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-28 19:50:24,598 - resultado - INFO - Se genero el modelo con los datos:
+2023-04-28 19:50:24,643 - resultado - INFO - None
+2023-04-28 19:50:24,643 - resultado - INFO - None
+2023-04-28 19:50:24,674 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-28 19:50:24,674 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-28 19:50:24,674 - resultado - INFO - Entenamiento con epochs: 2
+2023-04-28 20:02:33,423 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,423 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,423 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,425 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,425 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,425 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-04-28 20:02:33,426 - resultado - INFO - Loss: [0.004111319314688444, 0.0]
+2023-04-28 20:02:33,426 - resultado - INFO - Loss: [0.004111319314688444, 0.0]
+2023-04-28 20:02:33,426 - resultado - INFO - Loss: [0.004111319314688444, 0.0]
+2023-04-28 20:02:33,427 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-28 20:02:33,427 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-04-28 20:02:33,427 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-03 17:23:59,070 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-03 17:23:59,310 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-03 17:27:56,792 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 17:27:56,792 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 17:27:59,732 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 17:27:59,732 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 17:27:59,778 - resultado - INFO - None
+2023-05-03 17:27:59,778 - resultado - INFO - None
+2023-05-03 17:27:59,808 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-03 17:27:59,808 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-03 17:27:59,808 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-03 17:39:40,908 - resultado - INFO - Accuracy: [0.9946428537368774, 1.0]
+2023-05-03 17:39:40,908 - resultado - INFO - Accuracy: [0.9946428537368774, 1.0]
+2023-05-03 17:39:40,908 - resultado - INFO - Accuracy: [0.9946428537368774, 1.0]
+2023-05-03 17:39:40,915 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-03 17:39:40,915 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-03 17:39:40,915 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-03 17:39:40,918 - resultado - INFO - Loss: [0.02250424027442932, 0.0]
+2023-05-03 17:39:40,918 - resultado - INFO - Loss: [0.02250424027442932, 0.0]
+2023-05-03 17:39:40,918 - resultado - INFO - Loss: [0.02250424027442932, 0.0]
+2023-05-03 17:39:40,919 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-03 17:39:40,919 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-03 17:39:40,919 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-03 18:18:20,507 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:18:20,507 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:42:47,551 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:42:47,551 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:46:29,450 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:46:29,450 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:51:35,174 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:51:35,174 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:52:33,888 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:52:33,888 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:53:30,593 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:53:30,593 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:56:11,430 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 18:56:11,430 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 19:12:21,315 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 19:12:21,315 - resultado - ERROR - TEST DE TESTING proceso
+2023-05-03 19:32:40,321 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-03 19:32:40,324 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-03 19:33:06,502 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-03 19:33:06,504 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-03 19:51:03,181 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-03 19:51:03,189 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-03 19:52:12,046 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 19:52:12,046 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 19:52:15,852 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 19:52:15,852 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 19:52:15,864 - resultado - INFO - None
+2023-05-03 19:52:15,864 - resultado - INFO - None
+2023-05-03 20:01:33,718 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-03 20:01:33,724 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-03 20:01:58,539 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 20:01:58,539 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-03 20:02:02,132 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 20:02:02,132 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-03 20:02:02,150 - resultado - INFO - None
+2023-05-03 20:02:02,150 - resultado - INFO - None
+2023-05-03 20:02:02,999 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-03 20:02:02,999 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-03 20:02:02,999 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:13:33,208 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:13:33,395 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:17:07,578 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:17:07,578 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:17:11,030 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:17:11,030 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:17:11,038 - resultado - INFO - None
+2023-05-04 15:17:11,038 - resultado - INFO - None
+2023-05-04 15:17:11,652 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:17:11,652 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:17:11,652 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:34:19,130 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:34:19,304 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:37:17,812 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:37:17,812 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:37:21,013 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:37:21,013 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:37:21,062 - resultado - INFO - None
+2023-05-04 15:37:21,062 - resultado - INFO - None
+2023-05-04 15:37:21,088 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:37:21,088 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:37:21,088 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:46:47,205 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:46:47,542 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:52:25,381 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:52:25,381 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:52:28,102 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:52:28,102 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:52:28,156 - resultado - INFO - None
+2023-05-04 15:52:28,156 - resultado - INFO - None
+2023-05-04 15:52:28,181 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:52:28,181 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:52:28,181 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:56:16,435 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:56:16,435 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:56:16,435 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:56:16,435 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 15:56:16,440 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:56:16,440 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:56:16,440 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:56:16,440 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 15:57:25,185 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:57:25,185 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:57:25,185 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:57:25,185 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:57:25,185 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 15:57:27,516 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:57:27,516 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:57:27,516 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:57:27,516 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:57:27,516 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 15:57:27,578 - resultado - INFO - None
+2023-05-04 15:57:27,578 - resultado - INFO - None
+2023-05-04 15:57:27,578 - resultado - INFO - None
+2023-05-04 15:57:27,578 - resultado - INFO - None
+2023-05-04 15:57:27,578 - resultado - INFO - None
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 15:57:27,607 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,513 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:06,520 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:35,827 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:38,964 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,031 - resultado - INFO - None
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:32:39,072 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,813 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:02,828 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:19,545 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,462 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,527 - resultado - INFO - None
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:34:22,569 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:47:33,506 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:47:33,741 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 17:50:32,326 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:50:32,326 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 17:50:36,021 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:50:36,021 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 17:50:36,074 - resultado - INFO - None
+2023-05-04 17:50:36,074 - resultado - INFO - None
+2023-05-04 17:50:36,097 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:50:36,097 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:50:36,097 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 17:56:00,659 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 17:56:00,893 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 18:06:55,973 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 18:06:56,197 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 18:17:27,674 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 18:17:27,832 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 18:19:29,389 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 18:19:29,389 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 18:19:32,286 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 18:19:32,286 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 18:19:32,294 - resultado - INFO - None
+2023-05-04 18:19:32,294 - resultado - INFO - None
+2023-05-04 18:19:32,651 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 18:19:32,651 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 18:19:32,651 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 18:32:23,864 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-04 18:32:23,864 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-04 18:32:23,864 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-04 18:32:23,865 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-04 18:32:23,865 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-04 18:32:23,865 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-04 18:32:23,866 - resultado - INFO - Loss: [0.09090873599052429, 0.0]
+2023-05-04 18:32:23,866 - resultado - INFO - Loss: [0.09090873599052429, 0.0]
+2023-05-04 18:32:23,866 - resultado - INFO - Loss: [0.09090873599052429, 0.0]
+2023-05-04 18:32:23,867 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-04 18:32:23,867 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-04 18:32:23,867 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-04 19:48:26,912 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 19:48:26,914 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 19:48:47,567 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 19:48:47,567 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 19:48:51,482 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 19:48:51,482 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 19:48:51,491 - resultado - INFO - None
+2023-05-04 19:48:51,491 - resultado - INFO - None
+2023-05-04 19:48:51,828 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:48:51,828 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:48:51,828 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:51:29,085 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 19:51:29,284 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 19:54:59,865 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 19:54:59,865 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 19:55:02,652 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 19:55:02,652 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 19:55:02,664 - resultado - INFO - None
+2023-05-04 19:55:02,664 - resultado - INFO - None
+2023-05-04 19:55:03,425 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:55:03,425 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:55:03,425 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 19:57:57,025 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-04 19:57:57,353 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-04 20:02:36,477 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 20:02:36,477 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-04 20:02:39,370 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 20:02:39,370 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-04 20:02:39,383 - resultado - INFO - None
+2023-05-04 20:02:39,383 - resultado - INFO - None
+2023-05-04 20:02:40,139 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 20:02:40,139 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-04 20:02:40,139 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:18:23,784 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-05 12:18:24,440 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-05 12:29:02,214 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 12:29:02,214 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 12:29:05,834 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 12:29:05,834 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 12:29:05,843 - resultado - INFO - None
+2023-05-05 12:29:05,843 - resultado - INFO - None
+2023-05-05 12:29:06,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:29:06,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:29:06,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:41:18,062 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,062 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,062 - resultado - INFO - Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,062 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,062 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,062 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 12:41:18,063 - resultado - INFO - Loss: [0.01293643843382597, 0.0]
+2023-05-05 12:41:18,063 - resultado - INFO - Loss: [0.01293643843382597, 0.0]
+2023-05-05 12:41:18,063 - resultado - INFO - Loss: [0.01293643843382597, 0.0]
+2023-05-05 12:41:18,064 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 12:41:18,064 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 12:41:18,064 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 12:54:14,750 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-05 12:54:15,180 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-05 12:57:50,001 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 12:57:50,001 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 12:57:52,536 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 12:57:52,536 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 12:57:52,548 - resultado - INFO - None
+2023-05-05 12:57:52,548 - resultado - INFO - None
+2023-05-05 12:57:53,303 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:57:53,303 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 12:57:53,303 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 13:08:24,383 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Accuracy: [0.9428571462631226, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Loss: [0.07007952034473419, 0.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Loss: [0.07007952034473419, 0.0]
+2023-05-05 13:08:24,383 - resultado - INFO - Loss: [0.07007952034473419, 0.0]
+2023-05-05 13:08:24,384 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 13:08:24,384 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 13:08:24,384 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 13:24:37,951 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-05 13:24:38,154 - resultado - DEBUG - Se creo lista de archivos, test: 100
+2023-05-05 13:28:19,381 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 13:28:19,381 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-05 13:28:21,697 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 13:28:21,697 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-05 13:28:21,705 - resultado - INFO - None
+2023-05-05 13:28:21,705 - resultado - INFO - None
+2023-05-05 13:28:22,202 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 13:28:22,202 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 13:28:22,202 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-05 13:39:20,397 - resultado - INFO - Accuracy: [0.9892857074737549, 1.0]
+2023-05-05 13:39:20,397 - resultado - INFO - Accuracy: [0.9892857074737549, 1.0]
+2023-05-05 13:39:20,397 - resultado - INFO - Accuracy: [0.9892857074737549, 1.0]
+2023-05-05 13:39:20,398 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:39:20,398 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:39:20,398 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Loss: [0.030401328578591347, 0.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Loss: [0.030401328578591347, 0.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Loss: [0.030401328578591347, 0.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-05 13:39:20,399 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:13:09,307 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-06 21:13:09,308 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-06 21:14:28,606 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-06 21:14:28,606 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-06 21:14:34,462 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-06 21:14:34,462 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-06 21:14:54,308 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-06 21:14:54,308 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-06 21:14:54,372 - resultado - INFO - None
+2023-05-06 21:14:54,372 - resultado - INFO - None
+2023-05-06 21:14:54,398 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:14:54,398 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:14:54,398 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:21:33,534 - resultado - INFO - Accuracy: [0.9982143044471741, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Accuracy: [0.9982143044471741, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Accuracy: [0.9982143044471741, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Loss: [0.01797528751194477, 0.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Loss: [0.01797528751194477, 0.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Loss: [0.01797528751194477, 0.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:21:33,534 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:35:12,426 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-06 21:35:12,427 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-06 21:35:17,192 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-06 21:35:17,192 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-06 21:35:21,444 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-06 21:35:21,444 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-06 21:35:21,480 - resultado - INFO - None
+2023-05-06 21:35:21,480 - resultado - INFO - None
+2023-05-06 21:35:21,498 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:35:21,498 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:35:21,498 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-06 21:41:53,370 - resultado - INFO - Accuracy: [0.9624999761581421, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Accuracy: [0.9624999761581421, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Accuracy: [0.9624999761581421, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Accuracy: [1.0, 1.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Loss: [0.04592912644147873, 0.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Loss: [0.04592912644147873, 0.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Loss: [0.04592912644147873, 0.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-06 21:41:53,370 - resultado - INFO - Val Loss: [0.0, 0.0]
+2023-05-07 08:58:57,041 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 08:58:57,042 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 08:59:05,426 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 08:59:05,426 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 08:59:10,319 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 08:59:10,319 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 08:59:10,364 - resultado - INFO - None
+2023-05-07 08:59:10,364 - resultado - INFO - None
+2023-05-07 08:59:10,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 08:59:10,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 08:59:10,389 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 09:03:47,608 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 09:03:47,608 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 09:06:47,680 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 09:06:47,681 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 09:16:06,738 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 09:16:06,738 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 09:16:15,055 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 09:16:15,055 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 09:16:19,327 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 09:16:19,327 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 09:16:19,383 - resultado - INFO - None
+2023-05-07 09:16:19,383 - resultado - INFO - None
+2023-05-07 09:16:19,412 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 09:16:19,412 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 09:16:19,412 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 09:22:48,093 - resultado - INFO - Accuracy: [0.8888888955116272, 0.9812206625938416]
+2023-05-07 09:22:48,093 - resultado - INFO - Accuracy: [0.8888888955116272, 0.9812206625938416]
+2023-05-07 09:22:48,093 - resultado - INFO - Accuracy: [0.8888888955116272, 0.9812206625938416]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Accuracy: [0.8999999761581421, 0.9333333373069763]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Accuracy: [0.8999999761581421, 0.9333333373069763]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Accuracy: [0.8999999761581421, 0.9333333373069763]
+2023-05-07 09:22:48,093 - resultado - INFO - Loss: [0.2942170202732086, 0.06462332606315613]
+2023-05-07 09:22:48,093 - resultado - INFO - Loss: [0.2942170202732086, 0.06462332606315613]
+2023-05-07 09:22:48,093 - resultado - INFO - Loss: [0.2942170202732086, 0.06462332606315613]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Loss: [0.1648952215909958, 0.12447284162044525]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Loss: [0.1648952215909958, 0.12447284162044525]
+2023-05-07 09:22:48,093 - resultado - INFO - Val Loss: [0.1648952215909958, 0.12447284162044525]
+2023-05-07 10:40:32,822 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 10:40:32,822 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 10:40:38,248 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 10:40:38,248 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 10:40:42,868 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 10:40:42,868 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 10:40:42,949 - resultado - INFO - None
+2023-05-07 10:40:42,949 - resultado - INFO - None
+2023-05-07 10:40:42,968 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 10:40:42,968 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 10:40:42,968 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 10:47:31,654 - resultado - INFO - Accuracy: [0.8726993799209595, 0.9647239446640015]
+2023-05-07 10:47:31,654 - resultado - INFO - Accuracy: [0.8726993799209595, 0.9647239446640015]
+2023-05-07 10:47:31,654 - resultado - INFO - Accuracy: [0.8726993799209595, 0.9647239446640015]
+2023-05-07 10:47:31,654 - resultado - INFO - Val Accuracy: [0.875, 0.9375]
+2023-05-07 10:47:31,654 - resultado - INFO - Val Accuracy: [0.875, 0.9375]
+2023-05-07 10:47:31,654 - resultado - INFO - Val Accuracy: [0.875, 0.9375]
+2023-05-07 10:47:31,655 - resultado - INFO - Loss: [0.5266047716140747, 0.10550995171070099]
+2023-05-07 10:47:31,655 - resultado - INFO - Loss: [0.5266047716140747, 0.10550995171070099]
+2023-05-07 10:47:31,655 - resultado - INFO - Loss: [0.5266047716140747, 0.10550995171070099]
+2023-05-07 10:47:31,655 - resultado - INFO - Val Loss: [0.2535426616668701, 0.21110683679580688]
+2023-05-07 10:47:31,655 - resultado - INFO - Val Loss: [0.2535426616668701, 0.21110683679580688]
+2023-05-07 10:47:31,655 - resultado - INFO - Val Loss: [0.2535426616668701, 0.21110683679580688]
+2023-05-07 11:05:13,469 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-07 11:05:13,484 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-07 11:05:19,779 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 11:05:19,779 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-07 11:05:24,154 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 11:05:24,154 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-07 11:05:24,189 - resultado - INFO - None
+2023-05-07 11:05:24,189 - resultado - INFO - None
+2023-05-07 11:05:24,205 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 11:05:24,205 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 11:05:24,205 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-07 11:12:35,561 - resultado - INFO - Accuracy: [0.8479262590408325, 0.9662058353424072]
+2023-05-07 11:12:35,561 - resultado - INFO - Accuracy: [0.8479262590408325, 0.9662058353424072]
+2023-05-07 11:12:35,561 - resultado - INFO - Accuracy: [0.8479262590408325, 0.9662058353424072]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Accuracy: [0.9142857193946838, 0.8857142925262451]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Accuracy: [0.9142857193946838, 0.8857142925262451]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Accuracy: [0.9142857193946838, 0.8857142925262451]
+2023-05-07 11:12:35,562 - resultado - INFO - Loss: [0.3801250755786896, 0.08133427798748016]
+2023-05-07 11:12:35,562 - resultado - INFO - Loss: [0.3801250755786896, 0.08133427798748016]
+2023-05-07 11:12:35,562 - resultado - INFO - Loss: [0.3801250755786896, 0.08133427798748016]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Loss: [0.16649393737316132, 0.1831359714269638]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Loss: [0.16649393737316132, 0.1831359714269638]
+2023-05-07 11:12:35,562 - resultado - INFO - Val Loss: [0.16649393737316132, 0.1831359714269638]
