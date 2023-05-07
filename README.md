@@ -37,3 +37,35 @@ El dataset original puede descargarse sin ser escalado desde el google drive que
 Fuente: https://www.kaggle.com/datasets/kwentar/blur-dataset
 La version que utilizamos fue escalado previamente a nuestro uso a 2048px en el lado mas largo
 
+
+
+-+-----
+Instrucciones de instalacion:
+
+Crear un entorno de python > 3.8 (Desarrollo realizado sobre 3.8.16) 
+Ej. Usando la libreria virtualenv 
+python3 -m venv /path/to/new/virtual/environment
+Activamos el entorno
+source my-env/bin/activate
+procedemos a instalar las librerias requeridas
+pip install -r requirements.txt
+Este proceso demorara mucho tiempo debido a que se deben descargar numerosos recursos de paquetes asociados a Tensor Flow (por ejemplo cudatoolkit)
+
+
+
+------------
+Instrucciones de uso
+
+Entrenamiento:
+Se deberan cargar en las carpetas
+Dataset/defocused_blurred
+Dataset/motion_blurred
+Dataset/sharp
+Los archivos de imagen segun correspondan en su categoria, respetando la terminacion de su nombre como S , F , M
+Ejecutar el archivo entrenar.py y eventualmente si asi se lo requiere modificar los parametros de configuracion del modelo desde el mismo archivo
+
+Prediccion:
+Se deben cargar los archivos que se quieran analizar en la carpeta
+Predictor\files\
+Llamar a los mismos usando predecir.py indicando el archivo que sera analizado.
+
