@@ -1,0 +1,1 @@
+Esta carpeta contedra imagenes en foco para entrenar

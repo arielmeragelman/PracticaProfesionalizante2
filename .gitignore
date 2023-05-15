@@ -1,0 +1,16 @@
+**/*.jpg
+.ipynb_checkpoints
+*.~lock.*
+# Binary files
+*.doc
+*.docx
+*.jpeg
+*.jpg
+*.ods
+*.pdf
+*.png
+*.ppt
+*.pptx
+*.tiff
+*.xls
+*.xlsx
