@@ -1100,3 +1100,49 @@
 2023-05-20 19:23:50,395 - resultado - INFO - Val Loss: [0.4080856144428253, 0.3372429609298706]
 2023-05-20 19:23:50,395 - resultado - INFO - Val Loss: [0.4080856144428253, 0.3372429609298706]
 2023-05-20 19:23:50,395 - resultado - INFO - Val Loss: [0.4080856144428253, 0.3372429609298706]
+2023-05-21 14:21:31,895 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-21 14:21:31,895 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-21 14:21:38,341 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-21 14:21:38,341 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-21 14:21:42,983 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-21 14:21:42,983 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-21 14:21:43,033 - resultado - INFO - None
+2023-05-21 14:21:43,033 - resultado - INFO - None
+2023-05-21 14:21:43,067 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 14:21:43,067 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 14:21:43,067 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 14:29:22,010 - resultado - INFO - Accuracy: [0.8803681135177612, 0.9739263653755188]
+2023-05-21 14:29:22,010 - resultado - INFO - Accuracy: [0.8803681135177612, 0.9739263653755188]
+2023-05-21 14:29:22,010 - resultado - INFO - Accuracy: [0.8803681135177612, 0.9739263653755188]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Accuracy: [0.9459459185600281, 0.9459459185600281]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Accuracy: [0.9459459185600281, 0.9459459185600281]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Accuracy: [0.9459459185600281, 0.9459459185600281]
+2023-05-21 14:29:22,011 - resultado - INFO - Loss: [0.3586389720439911, 0.0724491998553276]
+2023-05-21 14:29:22,011 - resultado - INFO - Loss: [0.3586389720439911, 0.0724491998553276]
+2023-05-21 14:29:22,011 - resultado - INFO - Loss: [0.3586389720439911, 0.0724491998553276]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Loss: [0.2439512312412262, 0.20751650631427765]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Loss: [0.2439512312412262, 0.20751650631427765]
+2023-05-21 14:29:22,011 - resultado - INFO - Val Loss: [0.2439512312412262, 0.20751650631427765]
+2023-05-21 14:54:15,465 - resultado - DEBUG - Se creo lista de archivos, train: 500
+2023-05-21 14:54:15,465 - resultado - DEBUG - Se creo lista de archivos, test: 102
+2023-05-21 14:54:22,060 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-21 14:54:22,060 - resultado - INFO - PARAMETROS USADOS: IMAGE SIZE: 600 - BATCH_SIZE: 32 - filters: 32 - kernel_size: 3  - activation: relu - units: 2
+2023-05-21 14:54:26,440 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-21 14:54:26,440 - resultado - INFO - Se genero el modelo con los datos:
+2023-05-21 14:54:26,485 - resultado - INFO - None
+2023-05-21 14:54:26,485 - resultado - INFO - None
+2023-05-21 14:54:26,512 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 14:54:26,512 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 14:54:26,512 - resultado - INFO - Entenamiento con epochs: 2
+2023-05-21 15:02:01,623 - resultado - INFO - Accuracy: [0.9127105474472046, 0.9908116459846497]
+2023-05-21 15:02:01,623 - resultado - INFO - Accuracy: [0.9127105474472046, 0.9908116459846497]
+2023-05-21 15:02:01,623 - resultado - INFO - Accuracy: [0.9127105474472046, 0.9908116459846497]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Accuracy: [0.9210526347160339, 0.9473684430122375]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Accuracy: [0.9210526347160339, 0.9473684430122375]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Accuracy: [0.9210526347160339, 0.9473684430122375]
+2023-05-21 15:02:01,623 - resultado - INFO - Loss: [0.23071125149726868, 0.0448545441031456]
+2023-05-21 15:02:01,623 - resultado - INFO - Loss: [0.23071125149726868, 0.0448545441031456]
+2023-05-21 15:02:01,623 - resultado - INFO - Loss: [0.23071125149726868, 0.0448545441031456]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Loss: [0.28936219215393066, 0.20399397611618042]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Loss: [0.28936219215393066, 0.20399397611618042]
+2023-05-21 15:02:01,623 - resultado - INFO - Val Loss: [0.28936219215393066, 0.20399397611618042]

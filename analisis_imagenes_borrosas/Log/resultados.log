@@ -871,3 +871,51 @@
 2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
 2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
 2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-21 14:21:38,340 - proceso - DEBUG - Se genero batch de archivos
+2023-05-21 14:21:38,340 - proceso - DEBUG - Se genero batch de archivos
+2023-05-21 14:21:41,788 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-21 14:21:41,788 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-21 14:21:42,983 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-21 14:21:42,983 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-21 14:21:43,065 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 14:21:43,065 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 14:21:43,065 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 14:29:22,010 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,190 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-21144118
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:42:14,192 - proceso - ERROR - No se pudo crear el backup del modelo Error: name 'loss' is not defined
+2023-05-21 14:54:22,059 - proceso - DEBUG - Se genero batch de archivos
+2023-05-21 14:54:22,059 - proceso - DEBUG - Se genero batch de archivos
+2023-05-21 14:54:25,345 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-21 14:54:25,345 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-21 14:54:26,440 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-21 14:54:26,440 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-21 14:54:26,512 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 14:54:26,512 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 14:54:26,512 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-21 15:02:01,621 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 15:02:01,621 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 15:02:01,621 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-21 15:02:01,622 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 15:02:01,622 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 15:02:01,622 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425

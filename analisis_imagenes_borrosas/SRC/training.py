@@ -157,7 +157,7 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
     plt.title('Training and Validation Loss')
     plt.xlabel('epoch')
     plt.show()
-    return model
+    return (model,loss,val_loss,acc,val_acc)
 
 
 def parametros_modelo(model):
@@ -177,3 +177,22 @@ def parametros_modelo(model):
 
     return (filtros,kernel,name,activation,units,full_data1,full_data2,full_data3)
 
+
+def escribir_metricas(back_modelo, loss, val_loss, acc, val_acc):
+    # Funcion para guardar los datos de las metricas del modelo
+
+    import pickle
+
+    print("valores que se guardaran:")
+    print(" ")
+    print(f" modelo: {back_modelo}   ")
+    print(f" loss: {loss}   ")
+    print(f" val_loss: {val_loss}   ")
+    print(f" acc: {acc}   ")
+    print(f" acc: {val_acc}   ")
+
+
+
+    with open("../Modelos/"+back_modelo+'.pkl', 'wb') as archivo:
+        pickle.dump((back_modelo, loss, val_loss, acc, val_acc), archivo)
+    return 1

@@ -49,6 +49,8 @@ def listado_modelos():
 @app.route("/modelos/info/",methods=['GET', 'POST'])
 def modeloinfo():
     import sys
+    import pickle
+    
     sys.path.append('../')
     from analisis_imagenes_borrosas.SRC.training import parametros_modelo
     import os
@@ -62,9 +64,11 @@ def modeloinfo():
     print("se retornan datos del modelo")
     print(f"El modelo elegido es {modelo}")
     filtros, kernel, name, activation, units, full_data1, full_data2, full_data3 = parametros_modelo(modelo)
-       
-    #return f"<h1>Se muestran los datos del modelo {filtros}   </h1>"
-    return render_template('parametros.html',filtros=filtros, kernel=kernel, name=name, activation=activation, units = units, full_data1 = full_data1, full_data2 = full_data2, full_data3 = full_data3)
+    # Cargar las variables desde el archivo
+    with open(modelo+".pkl", 'rb') as archivo:
+        back_modelo, loss, val_loss, acc, val_acc = pickle.load(archivo)       
+    
+    return render_template('parametros.html',filtros=filtros, kernel=kernel, name=name, activation=activation, units = units, full_data1 = full_data1, full_data2 = full_data2, full_data3 = full_data3, back_modelo=back_modelo, loss = loss, val_loss = val_loss, acc = acc, val_acc = val_acc)
 
 
 
