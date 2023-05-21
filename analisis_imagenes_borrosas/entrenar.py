@@ -15,7 +15,7 @@ from SRC.config import limpiar
 from SRC.training import escribir_modelo
 from SRC.training import modelado
 from SRC.training import entrenamiento
-
+from SRC.training import escribir_metricas
 
 def main(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units):
     # Funcion para ejecutar el proceso de cargado de imagenes para su entrenamiento  
@@ -120,8 +120,23 @@ def main(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units):
             pass
 
     model, train_generator, val_generator = modelado(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units)
-    modelo = entrenamiento(model, train_generator, val_generator, epochs=2)
+    modelo, loss, val_loss, acc, val_acc = entrenamiento(model, train_generator, val_generator, epochs=2)
     escribir_modelo(model, path+r"Modelos/Main")
+    # Guardamos un backup del modelo entrenado
+    now = datetime.now()
+    now = str(now).replace(" ", "").replace(":", "")[:16]
+
+    proceso, resultados = logeo()
+
+    try:
+        back_modelo = "Modelos/modelo_"+now
+        escribir_modelo(modelo, back_modelo)
+        escribir_metricas(back_modelo, loss, val_loss, acc, val_acc)
+        proceso.info(f'Se escribio el backup del modelo en: Modelos/modelo_{now}')
+    except Exception as a:
+        proceso.error(f'No se pudo crear el backup del modelo en: Modelos/modelo_{now}')
+        proceso.error(f'No se pudo crear el backup del modelo Error: {a}')
+    
     return modelo
 
 
@@ -129,15 +144,4 @@ def main(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units):
 
 modelo = main(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3]),int(sys.argv[4]),sys.argv[5],int(sys.argv[6]))
 
-# Guardamos un backup del modelo entrenado
-now = datetime.now()
-now = str(now).replace(" ", "").replace(":", "")[:16]
 
-proceso, resultados = logeo()
-
-try:
-    escribir_modelo(modelo, "Modelos/modelo_"+now)
-    proceso.info(f'Se escribio el backup del modelo en: Modelos/modelo_{now}')
-except Exception as a:
-    proceso.error(f'No se pudo crear el backup del modelo en: Modelos/modelo_{now}')
-    proceso.error(f'No se pudo crear el backup del modelo Error: {a}')
