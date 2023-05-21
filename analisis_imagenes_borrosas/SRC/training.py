@@ -1,6 +1,7 @@
 def escribir_modelo(model, nombre):
 
     import tensorflow as tf
+    import os
     from SRC.config import logeo
     proceso, resultados = logeo()
     # Funcion para escribir el modelo en archivo
@@ -8,8 +9,13 @@ def escribir_modelo(model, nombre):
     print("EL tipo de modelo es:")
     print(type(model))
 
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"+nombre
+    full_path = os.path.join(absolute_path, relative_path) 
+    print(f"se escribira el modelo en {full_path}")
+
     if model.layers[1].get_config():
-        tf.keras.models.save_model(model, nombre)
+        tf.keras.models.save_model(model, full_path)
     else:
         proceso.error(f'El modelo utilizado no es valido, es tipo: {type(model)}')
         raise Exception("La variable model no es un modelo valido")
@@ -17,6 +23,8 @@ def escribir_modelo(model, nombre):
 
 def modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activation='relu', units=2):
     # Funcion para generar el modelo
+    import os
+
     if ((IMAGE_SIZE < 100 or IMAGE_SIZE > 2000) or (BATCH_SIZE < 20 or BATCH_SIZE > 40) or (kernel_size < 1 or kernel_size > 10) or (units < 1 or units > 10) or activation.isalpha()!=True  ):
         raise Exception("Parametros invalidos")
     import tensorflow as tf
@@ -35,8 +43,14 @@ def modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activatio
     Fuente: https://www.enmilocalfunciona.io/tratamiento-de-imagenes-usando-imagedatagenerator-en-keras/
     '''
 
-    path = ""
+    
     # toma los datos de ingreso de imagenes para el entrenamiento y genera un objeto iterable con los datos de las imagenes y el label correspondiente
+    
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"
+    full_path = os.path.join(absolute_path, relative_path) 
+    path = full_path
+
     train_generator = datagen.flow_from_directory(
         path+r"Entrenamiento/train",
         target_size=(IMAGE_SIZE, IMAGE_SIZE),
@@ -144,3 +158,22 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
     plt.xlabel('epoch')
     plt.show()
     return model
+
+
+def parametros_modelo(model):
+    import tensorflow as tf
+    import tensorflow_hub as hub
+    modelo = tf.keras.models.load_model(model,
+                                          custom_objects={'KerasLayer': hub.KerasLayer})
+										  
+    filtros = modelo.layers[1].get_config()['filters']
+    kernel = modelo.layers[1].get_config()['kernel_size']
+    name = modelo.layers[1].get_config()['name']
+    activation = modelo.layers[1].get_config()['activation']
+    units = modelo.layers[4].get_config()['units']										  
+    full_data1 = modelo.layers[1].get_config()
+    full_data2 = kernel=modelo.layers[2].get_config()
+    full_data3 = kernel=modelo.layers[3].get_config()
+
+    return (filtros,kernel,name,activation,units,full_data1,full_data2,full_data3)
+

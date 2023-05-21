@@ -1,8 +1,14 @@
 def logeo():
     # Funcion para generar los objetos de logging
     import logging
+    import os
     # Defino el path donde se realizara el log
-    path = "Log/"
+    
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"
+    full_path = os.path.join(absolute_path, relative_path) 
+    
+    path = full_path+"/Log/"
     proceso = logging.getLogger('proceso')
     resultados = logging.getLogger('resultado')
     proceso.setLevel(logging.DEBUG)

@@ -1,6 +1,7 @@
 # Importamos librerias
 import shutil
 import os
+import sys
 from pathlib import Path
 import random
 import numpy as np
@@ -16,9 +17,14 @@ from SRC.training import modelado
 from SRC.training import entrenamiento
 
 
-def main():
+def main(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units):
     # Funcion para ejecutar el proceso de cargado de imagenes para su entrenamiento  
-    path = r""
+    
+    
+    
+    absolute_path = os.path.dirname(__file__)
+    path=absolute_path+"/"
+    
     proceso, resultados = logeo()
 
     # Definicion de directorios de entrenamiento y testeos
@@ -113,7 +119,7 @@ def main():
             print(f"problema para copiar {image_name}")
             pass
 
-    model, train_generator, val_generator = modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activation='relu', units=2)
+    model, train_generator, val_generator = modelado(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units)
     modelo = entrenamiento(model, train_generator, val_generator, epochs=2)
     escribir_modelo(model, path+r"Modelos/Main")
     return modelo
@@ -121,7 +127,7 @@ def main():
 
 # INICIA PROCESO DE EJECUCION DEL ENTRENAMIENTO
 
-modelo = main()
+modelo = main(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3]),int(sys.argv[4]),sys.argv[5],int(sys.argv[6]))
 
 # Guardamos un backup del modelo entrenado
 now = datetime.now()

@@ -59,3 +59,4 @@ def predecir(model, archivo):
         print("Label : sharp")
 
     return prediccion
+

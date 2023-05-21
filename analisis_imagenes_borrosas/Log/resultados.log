@@ -781,3 +781,93 @@
 2023-05-07 11:27:00,643 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-07112603
 2023-05-07 11:27:00,643 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-07112603
 2023-05-07 11:35:28,933 - proceso - ERROR - El modelo utilizado no es valido, es tipo: <class 'str'>
+2023-05-20 17:46:01,201 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 17:46:01,201 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 17:46:04,805 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 17:46:04,805 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 17:46:05,859 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 17:46:05,859 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 17:46:05,910 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:46:05,910 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:46:05,910 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:46:05,915 - proceso - ERROR - El modelo no se pudo entrenar correctamente Asked to retrieve element 0, but the Sequence has length 0
+2023-05-20 17:46:05,915 - proceso - ERROR - El modelo no se pudo entrenar correctamente Asked to retrieve element 0, but the Sequence has length 0
+2023-05-20 17:46:05,915 - proceso - ERROR - El modelo no se pudo entrenar correctamente Asked to retrieve element 0, but the Sequence has length 0
+2023-05-20 17:49:43,337 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 17:49:43,337 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 17:49:46,512 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 17:49:46,512 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 17:49:47,595 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 17:49:47,595 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 17:49:47,666 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:49:47,666 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:49:47,666 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 17:57:14,623 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 17:57:14,623 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 17:57:14,623 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 17:57:14,624 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 17:57:14,624 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 17:57:14,624 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:00:14,657 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20175924
+2023-05-20 18:14:53,564 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 18:14:53,564 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 18:14:56,951 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 18:14:56,951 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 18:14:58,142 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 18:14:58,142 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 18:14:58,243 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:14:58,243 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:14:58,243 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:22:33,430 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:22:33,430 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:22:33,430 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:22:33,431 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:22:33,431 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:22:33,431 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:30:44,751 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 18:30:44,751 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 18:30:48,109 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 18:30:48,109 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 18:30:49,218 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 18:30:49,218 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 18:30:49,290 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:30:49,290 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:30:49,290 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 18:38:25,441 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:38:25,441 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:38:25,441 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 18:38:25,442 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:38:25,442 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 18:38:25,442 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:05:14,869 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20190424
+2023-05-20 19:15:59,599 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 19:15:59,599 - proceso - DEBUG - Se genero batch de archivos
+2023-05-20 19:16:03,061 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 19:16:03,061 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-20 19:16:04,249 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 19:16:04,249 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-20 19:16:04,328 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 19:16:04,328 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 19:16:04,328 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 19:23:50,393 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236
+2023-05-20 21:03:32,074 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-20210236

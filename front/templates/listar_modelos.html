@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LISTADO DE MODELOS</title>
+
+</head>
+<body>
+  <form action="/modelos/info/" method="post">
+
+<select id="comp_select" name="comp_select" class="Input">
+      {% for o in lista %}
+      <option value="{{ o.modelo }}">{{ o.modelo }}</option>
+      {% endfor %}
+</select>
+<input type="submit" id="seleccion_modelo" name="select_model" value="Seleccionar" />
+
+
+
+</body>
+</html>
