@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template, request
+from flask import render_template, request , url_for
 import requests
 
 
@@ -101,27 +101,58 @@ def predecir_modelos():
     lista=listar_modelos()
     return render_template("predecir_modelos.html",lista=lista)
 
-@app.route("/admin/post/")
-@app.route("/admin/post/<int:post_id>/")
-def post_form(post_id=None):
-    return render_template("admin/post_form.html", post_id=post_id)
+@app.route("/predecir/prediccion/", methods=['GET', 'POST'])
+def datospredecir():
+    import subprocess
+    import os
+    from pathlib import Path
+    import sys
+    sys.path.append('../')
+    from analisis_imagenes_borrosas.SRC.predecir import predecir
+    from analisis_imagenes_borrosas.SRC.config import logeo
 
-@app.route("/signup/", methods=["GET", "POST"])
-def show_signup_form():
-    return render_template("signup_form.html")
+    proceso, resultados = logeo()
 
-def show_signup_form():
+    modelo = request.form['pred_comp_select']
+    abs_path2 = os.path.abspath(__file__)
+    abs_path2 = Path(abs_path2)
+    abs_path2 = abs_path2.parent.absolute()
+    rel_path = "../analisis_imagenes_borrosas/"
+    ful_path = os.path.join(abs_path2, rel_path)
+    modelo = os.path.join(ful_path, "Modelos", modelo)
+    
+    
+
     if request.method == 'POST':
-        name = request.form['name']
-        email = request.form['email']
-        password = request.form['password']
-        next = request.args.get('next', None)
-        if next:
-            return redirect(next)
-            print(f"Nombre: {name}")
-        return redirect(url_for('index'))
-    return render_template("signup_form.html")
+        imagen = request.files['uploaded-file']
+        if imagen:
+            if not os.path.exists(ful_path+'Predictor/'):
+                os.mkdir(ful_path+'Predictor/')
+                if not os.path.exists(ful_path+'Predictor/files'):
+                    os.mkdir(ful_path+'Predictor/files')
+                else:
+                    print(f"el directorio {ful_path}+Predictor/files existe")
+                
+                
+            else:
+                print("Directorio existe")
+            
+            imagen.save(ful_path+'Predictor/files/' + imagen.filename)
+            path_imagen = ful_path+'Predictor/files/'+imagen.filename
+    
+    
+    
+    print("se inicia datosentrenar")
+    print(f"MODELO: {modelo}")
+    prediccion = predecir(modelo,path_imagen)
+    
+    if prediccion[0][0] > prediccion[0][1]:
+        calidad = "Blur"
+    else:
+        calidad = "Sharp"
 
+    
+    return render_template('resultado_prediccion.html',archivo=imagen.filename,sharp=prediccion[0][0], blured=prediccion[0][1], resultado=calidad)
 
 
 #########################

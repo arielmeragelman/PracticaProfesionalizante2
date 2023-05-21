@@ -6,9 +6,9 @@
 
 </head>
 <body>
-  <form action="" method="post">
+  <form action="/predecir/prediccion/" method="post" enctype="multipart/form-data">
 
-<select name="comp_select" class="Input">
+<select name="pred_comp_select" class="Input">
       {% for o in lista %}
       <option value="{{ o.modelo }}">{{ o.modelo }}</option>
       {% endfor %}
