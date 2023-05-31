@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime
 import tensorflow as tf
 import tensorflow as tf
-import matplotlib.pyplot as plt
+
 
 from SRC.config import logeo
 from SRC.config import limpiar
@@ -120,7 +120,7 @@ def main(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units):
             pass
 
     model, train_generator, val_generator = modelado(IMAGE_SIZE, BATCH_SIZE, filters, kernel_size, activation, units)
-    modelo, loss, val_loss, acc, val_acc = entrenamiento(model, train_generator, val_generator, epochs=2)
+    modelo, loss, val_loss, acc, val_acc = entrenamiento(model, train_generator, val_generator, epochs=6)
     escribir_modelo(model, path+r"Modelos/Main")
     # Guardamos un backup del modelo entrenado
     now = datetime.now()

@@ -919,3 +919,18 @@
 2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
 2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
 2023-05-21 15:05:14,308 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-21150425
+2023-05-30 19:58:28,856 - proceso - ERROR - TEST DE TESTING resultado
+2023-05-30 19:58:40,084 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 19:58:40,084 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 19:58:40,084 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 19:58:40,084 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 19:58:44,943 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 19:58:44,943 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 19:58:44,943 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 19:58:44,943 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 21:41:56,402 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 21:41:56,402 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 21:41:59,572 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 21:41:59,572 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 21:42:00,544 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-30 21:42:00,544 - proceso - DEBUG - Modelo generado - optimizer adam

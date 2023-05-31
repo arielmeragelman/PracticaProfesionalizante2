@@ -104,7 +104,7 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
 
     import tensorflow as tf
     from SRC.config import logeo
-    import matplotlib.pyplot as plt
+    #import matplotlib.pyplot as plt
     proceso, resultados = logeo()
     proceso.debug('Inicia el entrenamiento del modelo')
     epochs_valor = epochs
@@ -139,24 +139,24 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
     val_loss = history.history['val_loss']
     resultados.info(f'Val Loss: {val_loss}')
 
-    plt.figure(figsize=(8, 8))
-    plt.subplot(2, 1, 1)
-    plt.plot(acc, label='Training Accuracy')
-    plt.plot(val_acc, label='Validation Accuracy')
-    plt.legend(loc='lower right')
-    plt.ylabel('Accuracy')
-    plt.ylim([min(plt.ylim()),1])
-    plt.title('Training and Validation Accuracy')
+    #plt.figure(figsize=(8, 8))
+    #plt.subplot(2, 1, 1)
+    #plt.plot(acc, label='Training Accuracy')
+    #plt.plot(val_acc, label='Validation Accuracy')
+    #plt.legend(loc='lower right')
+    #plt.ylabel('Accuracy')
+    #plt.ylim([min(plt.ylim()),1])
+    #plt.title('Training and Validation Accuracy')
 
-    plt.subplot(2, 1, 2)
-    plt.plot(loss, label='Training Loss')
-    plt.plot(val_loss, label='Validation Loss')
-    plt.legend(loc='upper right')
-    plt.ylabel('Cross Entropy')
-    plt.ylim([0, 1.0])
-    plt.title('Training and Validation Loss')
-    plt.xlabel('epoch')
-    plt.show()
+    #plt.subplot(2, 1, 2)
+    #plt.plot(loss, label='Training Loss')
+    #plt.plot(val_loss, label='Validation Loss')
+    #plt.legend(loc='upper right')
+    #plt.ylabel('Cross Entropy')
+    #plt.ylim([0, 1.0])
+    #plt.title('Training and Validation Loss')
+    #plt.xlabel('epoch')
+    #plt.show()
     return (model,loss,val_loss,acc,val_acc)
 
 
