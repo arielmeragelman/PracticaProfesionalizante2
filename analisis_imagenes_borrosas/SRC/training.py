@@ -182,6 +182,13 @@ def escribir_metricas(back_modelo, loss, val_loss, acc, val_acc):
     # Funcion para guardar los datos de las metricas del modelo
 
     import pickle
+    import os
+
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"+back_modelo+'.pkl'
+    full_path = os.path.join(absolute_path, relative_path) 
+    print(f"se escribira el modelo en {full_path}")
+
 
     print("valores que se guardaran:")
     print(" ")
@@ -192,7 +199,11 @@ def escribir_metricas(back_modelo, loss, val_loss, acc, val_acc):
     print(f" acc: {val_acc}   ")
 
 
-
-    with open("../Modelos/"+back_modelo+'.pkl', 'wb') as archivo:
-        pickle.dump((back_modelo, loss, val_loss, acc, val_acc), archivo)
+    try:
+        with open(full_path, 'wb') as archivo:
+            pickle.dump((back_modelo, loss, val_loss, acc,
+                         val_acc), archivo)
+    except Exception as e:
+        print("No se pudo guardar las metricas")
+        print(e)
     return 1

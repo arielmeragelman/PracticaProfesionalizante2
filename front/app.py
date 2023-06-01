@@ -31,7 +31,11 @@ def listar_modelos():
     modelos=[]
     
     for directorio in os.listdir(full_path):
-        modelos.append({'modelo':directorio})
+        if directorio[-4]==".":
+            pass
+
+        else:
+            modelos.append({'modelo':directorio})
 
     return modelos
 

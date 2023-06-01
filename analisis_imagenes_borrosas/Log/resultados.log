@@ -934,3 +934,99 @@
 2023-05-30 21:41:59,572 - proceso - DEBUG - base_model creado - base_model.trainable=False
 2023-05-30 21:42:00,544 - proceso - DEBUG - Modelo generado - optimizer adam
 2023-05-30 21:42:00,544 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-30 21:43:37,020 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 21:43:37,020 - proceso - DEBUG - Se genero batch de archivos
+2023-05-30 21:43:40,151 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 21:43:40,151 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-30 21:43:41,113 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-30 21:43:41,113 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-30 21:43:41,185 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-30 21:43:41,185 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-30 21:43:41,185 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-30 22:06:28,538 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,786 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-30220708
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-30 22:07:49,790 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/Modelos/modelo_2023-05-30220708.pkl'
+2023-05-31 20:19:46,352 - proceso - DEBUG - Se genero batch de archivos
+2023-05-31 20:19:46,352 - proceso - DEBUG - Se genero batch de archivos
+2023-05-31 20:19:50,303 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-31 20:19:50,303 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-31 20:19:51,458 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-31 20:19:51,458 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-31 20:19:51,573 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 20:19:51,573 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 20:19:51,573 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 20:45:27,719 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 20:45:27,719 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 20:45:27,719 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 20:45:27,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 20:45:27,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 20:45:27,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,132 - proceso - ERROR - No se pudo crear el backup del modelo en: Modelos/modelo_2023-05-31204611
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 20:46:58,133 - proceso - ERROR - No se pudo crear el backup del modelo Error: [Errno 2] No such file or directory: '../Modelos/modelo_2023-05-31204611.pkl'
+2023-05-31 21:00:35,864 - proceso - DEBUG - Se genero batch de archivos
+2023-05-31 21:00:35,864 - proceso - DEBUG - Se genero batch de archivos
+2023-05-31 21:00:39,179 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-31 21:00:39,179 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-05-31 21:00:40,143 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-31 21:00:40,143 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-05-31 21:00:40,213 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 21:00:40,213 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 21:00:40,213 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 21:24:15,812 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-05-31 21:25:39,575 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-05-31212457
+2023-06-01 20:06:33,132 - proceso - DEBUG - Se genero batch de archivos
+2023-06-01 20:06:33,132 - proceso - DEBUG - Se genero batch de archivos
+2023-06-01 20:06:36,884 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-06-01 20:06:36,884 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-06-01 20:06:38,036 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-06-01 20:06:38,036 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-06-01 20:06:41,028 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-01 20:06:41,028 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-01 20:06:41,028 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-01 20:30:26,720 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
