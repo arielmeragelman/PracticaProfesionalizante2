@@ -51,21 +51,33 @@ procedemos a instalar las librerias requeridas
 pip install -r requirements.txt
 Este proceso demorara mucho tiempo debido a que se deben descargar numerosos recursos de paquetes asociados a Tensor Flow (por ejemplo cudatoolkit)
 
-
+Descargar el codigo/repositorio
 
 ------------
 Instrucciones de uso
 
+Iniciar el servidor Flask
+Ejecutar en un terminal desde el root del proyecto python front/app.py
+
+
 Entrenamiento:
 Se deberan cargar en las carpetas
-Dataset/defocused_blurred
-Dataset/motion_blurred
-Dataset/sharp
+analisis_imagenes_borrosas/Dataset/defocused_blurred
+analisis_imagenes_borrosas/Dataset/motion_blurred
+analisis_imagenes_borrosas/Dataset/sharp
 Los archivos de imagen segun correspondan en su categoria, respetando la terminacion de su nombre como S , F , M
 Ejecutar el archivo entrenar.py y eventualmente si asi se lo requiere modificar los parametros de configuracion del modelo desde el mismo archivo
 
-Prediccion:
-Se deben cargar los archivos que se quieran analizar en la carpeta
-Predictor\files\
-Llamar a los mismos usando predecir.py indicando el archivo que sera analizado.
+Funcionamiento de la webapp
+
+Para entrenar un modelo nuevo:
+http://127.0.0.1:5000/modelos/entrenar/
+
+Para listar los modelos ya entrenados y poder desde alli ver los parametros con los que fue entrenado
+http://127.0.0.1:5000/modelos/listar/
+
+Para predecir una imagen nueva
+http://127.0.0.1:5000/predecir
+
+
 
