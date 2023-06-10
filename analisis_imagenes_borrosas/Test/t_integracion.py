@@ -126,6 +126,8 @@ def main():
     return (modelo, loss, val_loss, acc, val_acc)
 
 def test_integracioncompleta():
+
+    # El test debe resultar correcto si los valores de las capas consultadas coinciden con los parametros puedos en el modelo
     modelo, loss, val_loss, acc, val_acc = main()
     assert(modelo.layers[1].get_config()['filters']==32) and \
     (modelo.layers[1].get_config()['kernel_size']==(3, 3)) and \
@@ -134,6 +136,6 @@ def test_integracioncompleta():
     (modelo.layers[4].get_config()['units']==2)
   
 def test_post():
-    # POST MODEL TEST
+    # POST MODEL TEST 
     modelo, loss, val_loss, acc, val_acc = main()
     assert(acc > 90 )
