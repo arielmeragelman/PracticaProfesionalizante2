@@ -8,15 +8,16 @@ def predecir(model, archivo):
     import os
     from tensorflow.keras.preprocessing import image
     from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
-    from SRC.config import logeo
+    #from SRC.config import logeo
 
-    proceso, resultados = logeo()
+    #proceso, resultados = logeo()
 
     # ETAPA DE PREDICCION
     # Basado en : https://towardsdatascience.com/how-to-predict-an-image-with-keras-ca97d9cd4817
+    
     modelado = tf.keras.models.load_model(model,
                                           custom_objects={'KerasLayer': hub.KerasLayer})
-    path = "Predictor/files/"
+    #path = "Predictor/files/"
 
     if modelado.layers[1].get_config():
         pass
@@ -27,16 +28,16 @@ def predecir(model, archivo):
 
     # Creamos el directorio donde se va a montar las imagenes
     # En esta seccion se debe programar la subida de la imagen (o las imagenes)
-    try:
-        os.mkdir(path)
-    except:
-        print("Directorios ya existen")
+    #try:
+    #    os.mkdir(path)
+    #except:
+    #    print("Directorios ya existen")
 
     # imagen a validar
-    img_path = path + archivo
+    #img_path = path + archivo
     # Reescala de imagen
     try:
-        img = image.load_img(img_path, target_size=(600, 600))
+        img = image.load_img(archivo, target_size=(600, 600))
     except:
         raise Exception("Archivo no existe")
 
@@ -48,8 +49,8 @@ def predecir(model, archivo):
     # prediccion propíamente dicha
     prediccion = modelado.predict(img_preprocessed)
 
-    plt.imshow(img)
-    plt.show()
+    #plt.imshow(img)
+    #plt.show()
     print(f"EL VALOR PREDICHO ES: {prediccion}")
 
     if prediccion[0][0] > prediccion[0][1]:
@@ -58,4 +59,5 @@ def predecir(model, archivo):
     else:
         print("Label : sharp")
 
-    return prediccion
+    return (prediccion)
+

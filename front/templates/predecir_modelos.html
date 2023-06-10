@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PREDECIR IMAGEN</title>
+
+</head>
+<body>
+  <form action="/predecir/prediccion/" method="post" enctype="multipart/form-data">
+
+<select name="pred_comp_select" class="Input">
+      {% for o in lista %}
+      <option value="{{ o.modelo }}">{{ o.modelo }}</option>
+      {% endfor %}
+</select>
+<input type="file" id="myFile" name="uploaded-file" accept=".jpg">
+<input type="submit" id="seleccion_modelo" name="select_model" value="Seleccionar" />
+
+
+
+</body>
+</html>

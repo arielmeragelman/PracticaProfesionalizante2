@@ -1,7 +1,7 @@
 import pytest
 import sys     
 
-root_path = "analisis_imagenes_borrosas/"
+root_path = "../analisis_imagenes_borrosas/"
 
 # inserting the mod.py directory at
 # position 1 in sys.path

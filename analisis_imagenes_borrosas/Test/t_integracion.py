@@ -5,7 +5,7 @@ import random
 import shutil
 
 
-root_path = "analisis_imagenes_borrosas/"
+root_path = "../analisis_imagenes_borrosas/"
 
 # inserting the mod.py directory at
 # position 1 in sys.path
@@ -121,15 +121,19 @@ def main():
 
 
     model, train_generator, val_generator = modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activation='relu', units=2)
-    modelo=entrenamiento(model, train_generator, val_generator, epochs=2)
+    modelo, loss, val_loss, acc, val_acc = entrenamiento(model, train_generator, val_generator, epochs=2)
     escribir_modelo(model, path+r"Modelos/Test")
-    return modelo
+    return (modelo, loss, val_loss, acc, val_acc)
 
 def test_integracioncompleta():
-    modelo=main()
+    modelo, loss, val_loss, acc, val_acc = main()
     assert(modelo.layers[1].get_config()['filters']==32) and \
     (modelo.layers[1].get_config()['kernel_size']==(3, 3)) and \
     (modelo.layers[1].get_config()['name']=='conv2d') and \
     (modelo.layers[1].get_config()['activation']=='relu') and \
     (modelo.layers[4].get_config()['units']==2)
   
+def test_post():
+    # POST MODEL TEST
+    modelo, loss, val_loss, acc, val_acc = main()
+    assert(acc > 90 )

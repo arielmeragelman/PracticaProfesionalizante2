@@ -1,6 +1,7 @@
 def escribir_modelo(model, nombre):
 
     import tensorflow as tf
+    import os
     from SRC.config import logeo
     proceso, resultados = logeo()
     # Funcion para escribir el modelo en archivo
@@ -8,8 +9,13 @@ def escribir_modelo(model, nombre):
     print("EL tipo de modelo es:")
     print(type(model))
 
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"+nombre
+    full_path = os.path.join(absolute_path, relative_path) 
+    print(f"se escribira el modelo en {full_path}")
+
     if model.layers[1].get_config():
-        tf.keras.models.save_model(model, nombre)
+        tf.keras.models.save_model(model, full_path)
     else:
         proceso.error(f'El modelo utilizado no es valido, es tipo: {type(model)}')
         raise Exception("La variable model no es un modelo valido")
@@ -17,6 +23,8 @@ def escribir_modelo(model, nombre):
 
 def modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activation='relu', units=2):
     # Funcion para generar el modelo
+    import os
+
     if ((IMAGE_SIZE < 100 or IMAGE_SIZE > 2000) or (BATCH_SIZE < 20 or BATCH_SIZE > 40) or (kernel_size < 1 or kernel_size > 10) or (units < 1 or units > 10) or activation.isalpha()!=True  ):
         raise Exception("Parametros invalidos")
     import tensorflow as tf
@@ -35,8 +43,14 @@ def modelado(IMAGE_SIZE=600, BATCH_SIZE=32, filters=32, kernel_size=3, activatio
     Fuente: https://www.enmilocalfunciona.io/tratamiento-de-imagenes-usando-imagedatagenerator-en-keras/
     '''
 
-    path = ""
+    
     # toma los datos de ingreso de imagenes para el entrenamiento y genera un objeto iterable con los datos de las imagenes y el label correspondiente
+    
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"
+    full_path = os.path.join(absolute_path, relative_path) 
+    path = full_path
+
     train_generator = datagen.flow_from_directory(
         path+r"Entrenamiento/train",
         target_size=(IMAGE_SIZE, IMAGE_SIZE),
@@ -90,7 +104,7 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
 
     import tensorflow as tf
     from SRC.config import logeo
-    import matplotlib.pyplot as plt
+    #import matplotlib.pyplot as plt
     proceso, resultados = logeo()
     proceso.debug('Inicia el entrenamiento del modelo')
     epochs_valor = epochs
@@ -125,22 +139,71 @@ def entrenamiento(model, train_generator, val_generator, epochs=5):
     val_loss = history.history['val_loss']
     resultados.info(f'Val Loss: {val_loss}')
 
-    plt.figure(figsize=(8, 8))
-    plt.subplot(2, 1, 1)
-    plt.plot(acc, label='Training Accuracy')
-    plt.plot(val_acc, label='Validation Accuracy')
-    plt.legend(loc='lower right')
-    plt.ylabel('Accuracy')
-    plt.ylim([min(plt.ylim()),1])
-    plt.title('Training and Validation Accuracy')
+    #plt.figure(figsize=(8, 8))
+    #plt.subplot(2, 1, 1)
+    #plt.plot(acc, label='Training Accuracy')
+    #plt.plot(val_acc, label='Validation Accuracy')
+    #plt.legend(loc='lower right')
+    #plt.ylabel('Accuracy')
+    #plt.ylim([min(plt.ylim()),1])
+    #plt.title('Training and Validation Accuracy')
 
-    plt.subplot(2, 1, 2)
-    plt.plot(loss, label='Training Loss')
-    plt.plot(val_loss, label='Validation Loss')
-    plt.legend(loc='upper right')
-    plt.ylabel('Cross Entropy')
-    plt.ylim([0, 1.0])
-    plt.title('Training and Validation Loss')
-    plt.xlabel('epoch')
-    plt.show()
-    return model
+    #plt.subplot(2, 1, 2)
+    #plt.plot(loss, label='Training Loss')
+    #plt.plot(val_loss, label='Validation Loss')
+    #plt.legend(loc='upper right')
+    #plt.ylabel('Cross Entropy')
+    #plt.ylim([0, 1.0])
+    #plt.title('Training and Validation Loss')
+    #plt.xlabel('epoch')
+    #plt.show()
+    return (model,loss,val_loss,acc,val_acc)
+
+
+def parametros_modelo(model):
+    import tensorflow as tf
+    import tensorflow_hub as hub
+    modelo = tf.keras.models.load_model(model,
+                                          custom_objects={'KerasLayer': hub.KerasLayer})
+										  
+    filtros = modelo.layers[1].get_config()['filters']
+    kernel = modelo.layers[1].get_config()['kernel_size']
+    name = modelo.layers[1].get_config()['name']
+    activation = modelo.layers[1].get_config()['activation']
+    units = modelo.layers[4].get_config()['units']										  
+    full_data1 = modelo.layers[1].get_config()
+    full_data2 = kernel=modelo.layers[2].get_config()
+    full_data3 = kernel=modelo.layers[3].get_config()
+
+    return (filtros,kernel,name,activation,units,full_data1,full_data2,full_data3)
+
+
+def escribir_metricas(back_modelo, loss, val_loss, acc, val_acc):
+    # Funcion para guardar los datos de las metricas del modelo
+
+    import pickle
+    import os
+
+    absolute_path = os.path.dirname(__file__)
+    relative_path = "../"+back_modelo+'.pkl'
+    full_path = os.path.join(absolute_path, relative_path) 
+    print(f"se escribira el modelo en {full_path}")
+
+
+    print("valores que se guardaran:")
+    print(" ")
+    print(f" modelo: {back_modelo}   ")
+    print(f" loss: {loss}   ")
+    print(f" val_loss: {val_loss}   ")
+    print(f" acc: {acc}   ")
+    print(f" acc: {val_acc}   ")
+
+
+    try:
+        with open(full_path, 'wb') as archivo:
+            pickle.dump((back_modelo, loss, val_loss, acc,
+                         val_acc), archivo)
+    except Exception as e:
+        print("No se pudo guardar las metricas")
+        print(e)
+    return 1
