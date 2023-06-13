@@ -1,6 +1,12 @@
 # PracticaProfesionalizante2
 Grupo para ejercicios de practica profesionalizante 2
 
+Integrantes:
+Victor Lifata
+Alejandra Battistoni
+Sebastian Meragelman
+Fernando Suarez
+
 Proyecto:
 Desarrollo de un sistema de deteccion de imágenes borrosas/fuera de foco .
 

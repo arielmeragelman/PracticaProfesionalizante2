@@ -42,7 +42,7 @@ def main():
         proceso.info('Se crearon directorios - estructura de archivos no existia')
     except:
         print("Directorios ya existen")
-    # Montamos la carpeta del drive donde tenemos el dataset
+    # Montamos la carpeta del drive donde tenemos el Dataset
     # En caso de que se modifique la ubicación del dataset debera modificarse este paso
   
     # Defino ubicación del dataset montado

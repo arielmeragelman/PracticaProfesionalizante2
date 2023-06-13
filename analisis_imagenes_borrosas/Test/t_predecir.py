@@ -4,6 +4,7 @@ import sys
 root_path = "../analisis_imagenes_borrosas/"
 
 # inserting the mod.py directory at
+
 # position 1 in sys.path
 sys.path.insert(1, root_path)
 
