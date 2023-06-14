@@ -1030,3 +1030,24 @@
 2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
 2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
 2023-06-01 20:31:49,094 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-01203107
+2023-06-13 21:34:43,502 - proceso - DEBUG - Se genero batch de archivos
+2023-06-13 21:34:43,502 - proceso - DEBUG - Se genero batch de archivos
+2023-06-13 21:34:46,668 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-06-13 21:34:46,668 - proceso - DEBUG - base_model creado - base_model.trainable=False
+2023-06-13 21:34:47,590 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-06-13 21:34:47,590 - proceso - DEBUG - Modelo generado - optimizer adam
+2023-06-13 21:34:47,661 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-13 21:34:47,661 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-13 21:34:47,661 - proceso - DEBUG - Inicia el entrenamiento del modelo
+2023-06-13 21:57:23,194 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-13 21:57:23,194 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-13 21:57:23,194 - proceso - DEBUG - Termina el entrenamiento del modelo
+2023-06-13 21:57:23,195 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-13 21:57:23,195 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-13 21:57:23,195 - proceso - DEBUG - Inicia proceso de medicion del modelo
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803
+2023-06-13 21:58:43,520 - proceso - INFO - Se escribio el backup del modelo en: Modelos/modelo_2023-06-13215803

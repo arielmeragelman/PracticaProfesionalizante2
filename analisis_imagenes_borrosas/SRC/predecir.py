@@ -3,7 +3,6 @@ def predecir(model, archivo):
     
     import tensorflow as tf
     import tensorflow_hub as hub
-    import matplotlib.pyplot as plt
     import numpy as np
     import os
     from tensorflow.keras.preprocessing import image

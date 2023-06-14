@@ -114,6 +114,8 @@ def datospredecir():
     sys.path.append('../')
     from analisis_imagenes_borrosas.SRC.predecir import predecir
     from analisis_imagenes_borrosas.SRC.config import logeo
+    from analisis_imagenes_borrosas.SRC.manejo_imagen import control_contraste
+    from analisis_imagenes_borrosas.SRC.manejo_imagen import dectectar_brillo
 
     proceso, resultados = logeo()
 
@@ -124,8 +126,6 @@ def datospredecir():
     rel_path = "../analisis_imagenes_borrosas/"
     ful_path = os.path.join(abs_path2, rel_path)
     modelo = os.path.join(ful_path, "Modelos", modelo)
-    
-    
 
     if request.method == 'POST':
         imagen = request.files['uploaded-file']
@@ -136,19 +136,28 @@ def datospredecir():
                     os.mkdir(ful_path+'Predictor/files')
                 else:
                     print(f"el directorio {ful_path}+Predictor/files existe")
-                
-                
             else:
                 print("Directorio existe")
-            
+
             imagen.save(ful_path+'Predictor/files/' + imagen.filename)
             path_imagen = ful_path+'Predictor/files/'+imagen.filename
-    
-    
-    
+
     print("se inicia datosentrenar")
     print(f"MODELO: {modelo}")
-    prediccion = predecir(modelo,path_imagen)
+    
+    contraste = control_contraste(path_imagen, 0.8)
+    if contraste == 0:
+        contraste_state = "Bajo Contraste"
+    else:
+        contraste_state = "Buen Contraste"
+    brillo = dectectar_brillo(path_imagen, 55, 150)
+    if brillo == 0:
+        brillo_state = "Buena iluminación"
+    elif brillo == -1:
+        brillo_state = "Iluminación muy baja"
+    else:
+        brillo_state = "Iluminación muy alta"
+    prediccion = predecir(modelo, path_imagen)
     
     if prediccion[0][0] > prediccion[0][1]:
         calidad = "Blur"
@@ -156,7 +165,7 @@ def datospredecir():
         calidad = "Sharp"
 
     
-    return render_template('resultado_prediccion.html',archivo=imagen.filename,sharp=prediccion[0][0], blured=prediccion[0][1], resultado=calidad)
+    return render_template('resultado_prediccion.html',archivo=imagen.filename,sharp=prediccion[0][0], blured=prediccion[0][1], resultado=calidad,brillo=brillo_state,contraste=contraste_state)
 
 
 #########################
