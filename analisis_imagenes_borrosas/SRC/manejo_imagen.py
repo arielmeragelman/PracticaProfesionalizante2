@@ -6,7 +6,7 @@ def control_contraste(imagen,threshold):
   img = cv2.imread(imagen)
   gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   
-  if(is_low_contrast(gray,0.9)):
+  if(is_low_contrast(gray,threshold)):
     return 0
   else:
     return 1
@@ -20,9 +20,9 @@ def dectectar_brillo(imagen,min_threshold,max_threshold):
   hsldark  = cv2.cvtColor(imagedark, cv2.COLOR_BGR2HLS)
   Lchanneld = hsldark[:,:,1]
   lvalueld =cv2.mean(Lchanneld)[0]
-  if lvalueld < 100 :
+  if lvalueld < min_threshold :
     return -1
-  elif lvalueld > 185 :
+  elif lvalueld > max_threshold :
     return 1
   else:
     return 0

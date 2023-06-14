@@ -8,8 +8,4 @@ import logging
 import tensorflow as tf
 import tensorflow_hub as hub
 import matplotlib.pyplot as plt
-
-
-modelo = "Modelos/Main"
-archivo = "0_IPHONE-SE_M.JPG"
 predecir(modelo, archivo)
