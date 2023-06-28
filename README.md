@@ -5,7 +5,7 @@ Integrantes:
 Victor Lifata
 Alejandra Battistoni
 Sebastian Meragelman
-Fernando Suarez
+Fernando Suare
 
 Proyecto:
 Desarrollo de un sistema de deteccion de imágenes borrosas/fuera de foco .
